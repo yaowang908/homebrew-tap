@@ -7,7 +7,7 @@ cask "solo" do
   desc "Menu bar utility to hide other apps and restore minimized windows"
   homepage "https://github.com/yaowang908/solo-macos"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
   depends_on arch: :arm64
 
   app "Solo.app"
