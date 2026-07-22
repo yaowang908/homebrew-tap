@@ -1,6 +1,6 @@
 cask "solo" do
-  version "0.1.0"
-  sha256 "f962d49af3300457b391da307791f52f20a91f4bc40b3fdeb9117a81141df6ea"
+  version "0.2.0"
+  sha256 "be663c79d3b6924e907a728a4ddfe7f43525c4dc5ab5c6b1717f0d508f466a55"
 
   url "https://github.com/yaowang908/solo-macos/releases/download/v#{version}/Solo-v#{version}.zip"
   name "Solo"
