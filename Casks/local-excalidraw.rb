@@ -1,6 +1,6 @@
 cask "local-excalidraw" do
-  version "0.1.0"
-  sha256 "48d799dd44f9a769c142d52446d9337df86ff86c9af94a696c8ec250d2e7a2cb"
+  version "0.1.2"
+  sha256 "f91c4a57311c8eacb333c2c3b3202d45c8da46437be37a03d88cacfd92d4d72d"
 
   url "https://github.com/yaowang908/local-excalidraw/releases/download/v#{version}/Local-Excalidraw-v#{version}.zip"
   name "Local Excalidraw"
@@ -13,8 +13,9 @@ cask "local-excalidraw" do
   app "Local Excalidraw.app"
 
   caveats <<~EOS
-    Local Excalidraw is not signed or notarized. Install with --no-quarantine
-    to allow the first launch:
-      brew install --cask --no-quarantine yaowang908/tap/local-excalidraw
+    Local Excalidraw is ad-hoc signed but not notarized. macOS may block the
+    first launch. If you trust this download, open it once, then choose
+    Open Anyway in System Settings > Privacy & Security. See Apple's guidance:
+    https://support.apple.com/en-gb/102445
   EOS
 end
