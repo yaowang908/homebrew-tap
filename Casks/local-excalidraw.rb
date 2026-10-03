@@ -1,6 +1,6 @@
 cask "local-excalidraw" do
-  version "0.1.2"
-  sha256 "f91c4a57311c8eacb333c2c3b3202d45c8da46437be37a03d88cacfd92d4d72d"
+  version "0.1.3"
+  sha256 "3e8cc38fd7cd157d94e85f1f4b18ece58a45e6514be5df9b3936a3687a12b95b"
 
   url "https://github.com/yaowang908/local-excalidraw/releases/download/v#{version}/Local-Excalidraw-v#{version}.zip"
   name "Local Excalidraw"
